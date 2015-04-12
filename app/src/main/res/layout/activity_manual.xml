@@ -1,0 +1,41 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.daichi.yowamus_iyusya.manual">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:weightSum="1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true">
+
+        <ScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/scrollView"
+            android:layout_weight="0.99">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="488dp"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:id="@+id/textView2"
+                android:text="《ストーリー》\nあなたも勇者になりませんか？「新卒でいきなり手取り40万も夢じゃない！」\n現実は違った。あんな時代錯誤の装備を身にまとっても稼げているのは北斗の拳並みの超人ばかり。凡人勇者たちは薄給で、アルバイトと掛け持ちの兼業勇者が大半だ。危険で給料も低いという劣悪な労働環境が原因で、魔界のモンスターたちも暇を持て余すようになった。中には自分の城を空にして、バカンスに行ってしまうモンスターもいるようだ。\nこれを好機とみた凡人勇者たちは剣も盾も持たず、己の勘と足でモンスターに会わずに財宝を手に入れるべく、自宅を後にするのだった。\nモンスターに会いたくない。彼らの切実な思いは届くのか。\n\n《操作方法》\n己の勘と運で道を切り開いてください。\nどうかクリアできますように。 " />
+        </ScrollView>
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="85dp"
+            android:text="トップへ"
+            android:id="@+id/button4"
+            android:onClick="top" />
+
+    </LinearLayout>
+
+</RelativeLayout>

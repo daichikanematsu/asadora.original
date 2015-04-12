@@ -4,5 +4,23 @@
     <string name="app_name">asadora original</string>
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
+    <string name="title_activity_game_activity1">gameActivity1</string>
+    <string name="title_activity_game_activitybad">gameActivitybad</string>
+    <string name="title_activity_gameover_activity1">gameoverActivity1</string>
+    <string name="title_activity_game_activity2">gameActivity2</string>
+    <string name="title_activity_stage3">stage3</string>
+    <string name="title_activity_satge4">satge4</string>
+    <string name="title_activity_laststage">laststage</string>
+    <string name="title_activity_congratulation">congratulation</string>
+    <string name="title_activity_manual">manual</string>
+    <string name="title_activity_castle_stage">castle_stage</string>
+    <string name="title_activity_stage5">stage5</string>
+    <string name="title_activity_stage6">stage6</string>
+    <string name="title_activity_stage9">stage9</string>
+    <string name="title_activity_stage10">stage10</string>
+    <string name="title_activity_stage8">stage8</string>
+    <string name="title_activity_stage11">stage11</string>
+    <string name="title_activity_stage12">stage12</string>
+    <string name="title_activity_stage7">stage7</string>
 
 </resources>

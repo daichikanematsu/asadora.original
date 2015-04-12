@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.daichi.asadoraoriginal" >
+    package="com.example.daichi.yowamus_iyusya" >
 
     <application
         android:allowBackup="true"
@@ -8,13 +8,85 @@
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         <activity
-            android:name=".MainActivity"
+            android:name="com.example.daichi.yowamus_iyusya.MainActivity"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.daichi.yowamus_iyusya.stage1"
+            android:label="@string/title_activity_game_activity1" >
+        </activity>
+        <activity
+            android:name=".gameActivitybad"
+            android:label="@string/title_activity_game_activitybad" >
+        </activity>
+        <activity
+            android:name="com.example.daichi.yowamus_iyusya.gameover"
+            android:label="@string/title_activity_gameover_activity1" >
+        </activity>
+        <activity
+            android:name="com.example.daichi.yowamus_iyusya.stage2"
+            android:label="@string/title_activity_game_activity2" >
+        </activity>
+        <activity
+            android:name="com.example.daichi.yowamus_iyusya.stage3"
+            android:label="@string/title_activity_stage3" >
+        </activity>
+        <activity
+            android:name="com.example.daichi.yowamus_iyusya.stage4"
+            android:label="@string/title_activity_satge4" >
+        </activity>
+        <activity
+            android:name="com.example.daichi.yowamus_iyusya.laststage"
+            android:label="@string/title_activity_laststage" >
+        </activity>
+        <activity
+            android:name="com.example.daichi.yowamus_iyusya.congratulation"
+            android:label="@string/title_activity_congratulation" >
+        </activity>
+        <activity
+            android:name="com.example.daichi.yowamus_iyusya.manual"
+            android:label="@string/title_activity_manual" >
+        </activity>
+        <activity
+            android:name=".castle_stage"
+            android:label="@string/title_activity_castle_stage" >
+        </activity>
+        <activity
+            android:name="com.example.daichi.yowamus_iyusya.stage5"
+            android:label="@string/title_activity_stage5" >
+        </activity>
+        <activity
+            android:name="com.example.daichi.yowamus_iyusya.stage6"
+            android:label="@string/title_activity_stage6" >
+        </activity>
+        <activity
+            android:name="com.example.daichi.yowamus_iyusya.stage9"
+            android:label="@string/title_activity_stage9" >
+        </activity>
+        <activity
+            android:name="com.example.daichi.yowamus_iyusya.stage10"
+            android:label="@string/title_activity_stage10" >
+        </activity>
+        <activity
+            android:name="com.example.daichi.yowamus_iyusya.stage8"
+            android:label="@string/title_activity_stage8" >
+        </activity>
+        <activity
+            android:name="com.example.daichi.yowamus_iyusya.stage11"
+            android:label="@string/title_activity_stage11" >
+        </activity>
+        <activity
+            android:name="com.example.daichi.yowamus_iyusya.stage12"
+            android:label="@string/title_activity_stage12" >
+        </activity>
+        <activity
+            android:name="com.example.daichi.yowamus_iyusya.stage7"
+            android:label="@string/title_activity_stage7" >
         </activity>
     </application>
 
