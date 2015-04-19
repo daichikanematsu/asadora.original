@@ -24,7 +24,8 @@
                 android:text="左"
                 android:id="@+id/button29"
                 android:layout_weight="1"
-                android:onClick="one" />
+                android:onClick="one"
+                android:background="@drawable/button" />
 
             <Button
                 style="?android:attr/buttonStyleSmall"
@@ -33,7 +34,8 @@
                 android:text="中"
                 android:id="@+id/button30"
                 android:layout_weight="1"
-                android:onClick="two" />
+                android:onClick="two"
+                android:background="@drawable/button" />
 
             <Button
                 style="?android:attr/buttonStyleSmall"
@@ -42,7 +44,8 @@
                 android:text="右"
                 android:id="@+id/button31"
                 android:layout_weight="1"
-                android:onClick="two" />
+                android:onClick="two"
+                android:background="@drawable/button" />
         </LinearLayout>
     </LinearLayout>
 

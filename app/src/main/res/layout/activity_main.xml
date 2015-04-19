@@ -59,7 +59,9 @@
                 android:onClick="start"
                 android:layout_gravity="center_horizontal"
                 android:layout_weight="1"
-                android:longClickable="true" />
+                android:longClickable="true"
+                android:background="@drawable/button"
+                android:textColor="＠color/WHITE" />
 
             <Button
                 android:layout_width="149dp"
@@ -67,7 +69,9 @@
                 android:text="そうさせつめい"
                 android:id="@+id/button3"
                 android:onClick="manual"
-                android:layout_gravity="center_horizontal" />
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/button"
+                android:textColor="＠color/WHITE" />
 
         </LinearLayout>
 

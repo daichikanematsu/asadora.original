@@ -27,7 +27,8 @@
             android:layout_height="wrap_content"
             android:text="トップへ"
             android:id="@+id/button2"
-            android:onClick="top" />
+            android:onClick="top"
+            android:background="@drawable/button" />
 
     </LinearLayout>
 

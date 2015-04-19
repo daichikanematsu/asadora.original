@@ -34,7 +34,8 @@
             android:layout_height="85dp"
             android:text="トップへ"
             android:id="@+id/button4"
-            android:onClick="top" />
+            android:onClick="top"
+            android:background="@drawable/button" />
 
     </LinearLayout>
 
